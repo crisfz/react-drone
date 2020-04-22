@@ -8,3 +8,11 @@ steps:
   commands:
   - echo hello
   - echo world
+
+- name: discord notification
+  image: appleboy/drone-discord
+  settings:
+    webhook_id: 702647241617309796
+    webhook_token: iHPXhSiAipIlSuk93Dn3U7iddjU3A52VR3KF4sDOG9tTZKi-iEpJX4Zm7wHMTUeIJ6uO
+    username: DroneCI
+    message: "La wea wena"
